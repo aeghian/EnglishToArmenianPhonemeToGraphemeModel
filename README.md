@@ -32,7 +32,7 @@ Once the pytorch model was converted to tensorflow, implementation was a very ea
 
 Below is a description of each folder or individual files:
     
-    - tensorflowjs_model_32_max: This folder contains the Tensorflowjs model created to transofrm english phonemes to armenian graphemes. This model is designed for 32 character inputs.
+- tensorflowjs_model_32_max: This folder contains the Tensorflowjs model created to transofrm english phonemes to armenian graphemes. This model is designed for 32 character inputs.
     
     - cmudict.dict (1 & 2): This file contains the training data used to create the current model. It has been split into two parts due to file size restrictions in github.
     
