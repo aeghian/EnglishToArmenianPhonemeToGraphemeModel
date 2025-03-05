@@ -25,7 +25,7 @@ Once the pytorch model was converted to tensorflow, implementation was a very ea
 FILE EXPLANATIONS
 Below is a description of each folder or individual files:
     - tensorflowjs_model_32_max: This folder contains the Tensorflowjs model created to transofrm english phonemes to armenian graphemes. This model is designed for 32 character inputs.
-    - cmudict.dict: This file contains the training data used to create the current model.
+    - cmudict.dict (1 & 2): This file contains the training data used to create the current model. It has been split into two parts due to file size restrictions in github.
     - g2p_nobuco.py: This file contains the pytorch model architecture and nobuco modifications needed to convert the model to Tensorflowjs.
     - manipulation.ipynb: This file was used to convert the .csv training data into the proper .dct format so it could be used for training.
     - pytorch_3_13_2023.pth: This is the original pytorch model trained on 3/13/2023.
