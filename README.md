@@ -1,4 +1,5 @@
 INTRODUCTION
+
 The goal of this algorithm is to create a solution allowing people able to speak armenian to write in the language without knowing the alphabet. This is done by converting armenian words spelled in english phonetically (phonemes) to their appropriate armenian counterpart (graphemes). This model needed to be deployed in a browser extention and run locally. This choice was made because text data has the potential to be sensitive, and users may not want this data exposed to the cloud.
 
 CHOOSING ALGORITHM
