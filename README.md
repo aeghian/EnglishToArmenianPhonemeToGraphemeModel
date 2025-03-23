@@ -1,3 +1,5 @@
+https://github.com/user-attachments/assets/eb957e90-f191-4bf4-a3e3-2e82e996a2a8
+
 **INTRODUCTION**
 
 The goal of this algorithm is to create a solution allowing people able to speak Armenian to write in the language without knowing the alphabet or learning a specially mapped Armenian keyboard configuration. The current model is designed for Wetsern Armenian pronunciations. This is done by converting Armenian words spelled in English phonetically (phonemes) to their appropriate Armenian counterpart (graphemes). This model needed to be deployed in a browser extention and run locally. This choice was made because text data is potentially sensitive, and users may not want this data exposed to the cloud. Below sections describing the algorithm choice, data gathering process, training, conversion into Tensorflow, implementation into the brwoser addon, and included files have been provided.
